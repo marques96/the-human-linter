@@ -1,4 +1,4 @@
-def calcula_media(numeros):
+def calcular_media(numeros):
     # ERRO 1 (lógica): soma / (len+1) ao invés de len
     total = sum(numeros)
     media = total / (len(numeros) + 1)  
